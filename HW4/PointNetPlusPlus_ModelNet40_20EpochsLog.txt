@@ -1,0 +1,141 @@
+PARAMETER ...
+Namespace(batch_size=24, decay_rate=0.0001, epoch=20, gpu='0', learning_rate=0.001, log_dir='pointnet2_cls_ssg', model='pointnet2_cls_ssg', num_category=40, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+Load dataset ...
+The size of train data is 9843
+The size of test data is 2468
+No existing model, starting training from scratch...
+Epoch 1 (1/20):
+100% 410/410 [11:54<00:00,  1.74s/it]
+Train Instance Accuracy: 0.525102
+100% 103/103 [02:58<00:00,  1.73s/it]
+Test Instance Accuracy: 0.633900, Class Accuracy: 0.520397
+Best Instance Accuracy: 0.633900, Class Accuracy: 0.520397
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 2 (2/20):
+100% 410/410 [11:56<00:00,  1.75s/it]
+Train Instance Accuracy: 0.677134
+100% 103/103 [02:59<00:00,  1.74s/it]
+Test Instance Accuracy: 0.710599, Class Accuracy: 0.644599
+Best Instance Accuracy: 0.710599, Class Accuracy: 0.644599
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 3 (3/20):
+100% 410/410 [11:51<00:00,  1.74s/it]
+Train Instance Accuracy: 0.733028
+100% 103/103 [02:58<00:00,  1.73s/it]
+Test Instance Accuracy: 0.792557, Class Accuracy: 0.714181
+Best Instance Accuracy: 0.792557, Class Accuracy: 0.714181
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 4 (4/20):
+100% 410/410 [11:53<00:00,  1.74s/it]
+Train Instance Accuracy: 0.753150
+100% 103/103 [02:58<00:00,  1.74s/it]
+Test Instance Accuracy: 0.830016, Class Accuracy: 0.770832
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.770832
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 5 (5/20):
+100% 410/410 [11:51<00:00,  1.74s/it]
+Train Instance Accuracy: 0.780793
+100% 103/103 [02:59<00:00,  1.74s/it]
+Test Instance Accuracy: 0.797896, Class Accuracy: 0.734176
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.770832
+Epoch 6 (6/20):
+100% 410/410 [11:54<00:00,  1.74s/it]
+Train Instance Accuracy: 0.788618
+100% 103/103 [02:59<00:00,  1.75s/it]
+Test Instance Accuracy: 0.788107, Class Accuracy: 0.747408
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.770832
+Epoch 7 (7/20):
+100% 410/410 [11:54<00:00,  1.74s/it]
+Train Instance Accuracy: 0.799390
+100% 103/103 [03:00<00:00,  1.75s/it]
+Test Instance Accuracy: 0.796602, Class Accuracy: 0.767646
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.770832
+Epoch 8 (8/20):
+100% 410/410 [12:05<00:00,  1.77s/it]
+Train Instance Accuracy: 0.811280
+100% 103/103 [03:02<00:00,  1.78s/it]
+Test Instance Accuracy: 0.821521, Class Accuracy: 0.776187
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.776187
+Epoch 9 (9/20):
+100% 410/410 [12:07<00:00,  1.78s/it]
+Train Instance Accuracy: 0.817581
+100% 103/103 [03:03<00:00,  1.78s/it]
+Test Instance Accuracy: 0.815939, Class Accuracy: 0.759669
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.776187
+Epoch 10 (10/20):
+100% 410/410 [12:11<00:00,  1.78s/it]
+Train Instance Accuracy: 0.828659
+100% 103/103 [03:03<00:00,  1.78s/it]
+Test Instance Accuracy: 0.798948, Class Accuracy: 0.767561
+Best Instance Accuracy: 0.830016, Class Accuracy: 0.776187
+Epoch 11 (11/20):
+100% 410/410 [12:10<00:00,  1.78s/it]
+Train Instance Accuracy: 0.828659
+100% 103/103 [03:03<00:00,  1.79s/it]
+Test Instance Accuracy: 0.858657, Class Accuracy: 0.827968
+Best Instance Accuracy: 0.858657, Class Accuracy: 0.827968
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 12 (12/20):
+100% 410/410 [12:11<00:00,  1.78s/it]
+Train Instance Accuracy: 0.836890
+100% 103/103 [03:04<00:00,  1.79s/it]
+Test Instance Accuracy: 0.835680, Class Accuracy: 0.799291
+Best Instance Accuracy: 0.858657, Class Accuracy: 0.827968
+Epoch 13 (13/20):
+100% 410/410 [12:11<00:00,  1.78s/it]
+Train Instance Accuracy: 0.833028
+100% 103/103 [03:02<00:00,  1.78s/it]
+Test Instance Accuracy: 0.871521, Class Accuracy: 0.826533
+Best Instance Accuracy: 0.871521, Class Accuracy: 0.827968
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 14 (14/20):
+100% 410/410 [12:10<00:00,  1.78s/it]
+Train Instance Accuracy: 0.843699
+100% 103/103 [03:03<00:00,  1.78s/it]
+Test Instance Accuracy: 0.880421, Class Accuracy: 0.831204
+Best Instance Accuracy: 0.880421, Class Accuracy: 0.831204
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 15 (15/20):
+100% 410/410 [12:10<00:00,  1.78s/it]
+Train Instance Accuracy: 0.845935
+100% 103/103 [03:01<00:00,  1.77s/it]
+Test Instance Accuracy: 0.888673, Class Accuracy: 0.838675
+Best Instance Accuracy: 0.888673, Class Accuracy: 0.838675
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 16 (16/20):
+100% 410/410 [12:06<00:00,  1.77s/it]
+Train Instance Accuracy: 0.844004
+100% 103/103 [03:03<00:00,  1.78s/it]
+Test Instance Accuracy: 0.875809, Class Accuracy: 0.832438
+Best Instance Accuracy: 0.888673, Class Accuracy: 0.838675
+Epoch 17 (17/20):
+100% 410/410 [12:12<00:00,  1.79s/it]
+Train Instance Accuracy: 0.851220
+100% 103/103 [03:01<00:00,  1.76s/it]
+Test Instance Accuracy: 0.873220, Class Accuracy: 0.819588
+Best Instance Accuracy: 0.888673, Class Accuracy: 0.838675
+Epoch 18 (18/20):
+100% 410/410 [12:14<00:00,  1.79s/it]
+Train Instance Accuracy: 0.854675
+100% 103/103 [03:04<00:00,  1.79s/it]
+Test Instance Accuracy: 0.874353, Class Accuracy: 0.825352
+Best Instance Accuracy: 0.888673, Class Accuracy: 0.838675
+Epoch 19 (19/20):
+100% 410/410 [12:11<00:00,  1.78s/it]
+Train Instance Accuracy: 0.858943
+100% 103/103 [03:03<00:00,  1.78s/it]
+Test Instance Accuracy: 0.893042, Class Accuracy: 0.858441
+Best Instance Accuracy: 0.893042, Class Accuracy: 0.858441
+Saving at log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth
+Epoch 20 (20/20):
+100% 410/410 [12:06<00:00,  1.77s/it]
+Train Instance Accuracy: 0.874187
+100% 103/103 [03:02<00:00,  1.77s/it]
+Test Instance Accuracy: 0.885194, Class Accuracy: 0.846249
+Best Instance Accuracy: 0.893042, Class Accuracy: 0.858441
+PARAMETER ...
+Namespace(batch_size=24, gpu='0', log_dir='pointnet2_cls_ssg', num_category=40, num_point=1024, num_votes=3, use_cpu=False, use_normals=False, use_uniform_sample=False)
+Load dataset ...
+The size of test data is 2468
+100% 103/103 [03:32<00:00,  2.07s/it]
+Test Instance Accuracy: 0.893447, Class Accuracy: 0.854320
