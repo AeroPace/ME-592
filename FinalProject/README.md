@@ -1,5 +1,8 @@
 # ME-592 Final Project
 
+The results documented in the "Neural Network Architecture Effects on Deep Learning Topology Optimization" paper was done to further the existing studies conducted by Sosnovik et al. in the Neural Network for Topology Optimization.
+
+
 
 REFERENCES:
 
